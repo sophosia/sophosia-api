@@ -6,7 +6,7 @@
   "author": "Hunt Feng",
   "license": "MIT",
   "private": false,
-  "types": "sophosia.d.ts",
+  "types": "index.d.ts",
   "devDependencies": {
     "typescript": "^5.4.2"
   }

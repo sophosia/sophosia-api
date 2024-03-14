@@ -4,7 +4,7 @@
 
 ```ts
 // main.ts
-import type { Plugin } from "sophosia";
+import type { Plugin } from "sophosia-api";
 class MyPlugin extends Plugin {
   async enable() {
     this.addButton(/* button */);
