@@ -1,12 +1,12 @@
 {
-  "name": "sophosia-api",
+  "name": "sophosia",
   "version": "0.1.0-alpha",
-  "description": "API types for Sophosia",
-  "main": "index.js",
+  "description": "Type definitions for Sophosia API",
   "repository": "https://github.com/sophosia/sophosia-api",
   "author": "Hunt Feng",
   "license": "MIT",
   "private": false,
+  "types": "sophosia.d.ts",
   "devDependencies": {
     "typescript": "^5.4.2"
   }
