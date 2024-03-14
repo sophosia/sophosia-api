@@ -2,7 +2,11 @@
   "name": "sophosia",
   "version": "0.1.0-alpha",
   "description": "Type definitions for Sophosia API",
-  "repository": "https://github.com/sophosia/sophosia-api",
+  "homepage": "https://sophosia.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophosia/sophosia-api.git"
+  },
   "author": "Hunt Feng",
   "license": "MIT",
   "private": false,
