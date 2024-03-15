@@ -10,6 +10,8 @@
   "author": "Hunt Feng",
   "license": "MIT",
   "private": false,
+  "main": "",
+  "types": "index.d.ts",
   "devDependencies": {
     "typescript": "^5.4.2"
   }

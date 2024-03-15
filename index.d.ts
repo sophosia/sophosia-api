@@ -39,56 +39,47 @@ export class Plugin {
   /**
    * Layout controls
    */
-
   /**
    * Toggle LeftMenu
    * If visible is given, set the state as it is
    * @param visible
    */
   toggleLeftMenu: (visible?: boolean) => {};
-
   /**
    * Set the view to be shown in LeftMenu
    * @param viewId - the id of the view to be shown
    */
   setLeftMenuView: (viewId: string) => {};
-
   /**
    * Opens a page
    * @param - the page to be opened
    */
   openPage: (page: Page) => {};
-
   /**
    * Add a button
    * @param button - button to be added
    */
-  addButton(button: Button) {}
-
+  addButton(button: Button): void;
   /**
    * Add a view
    * @param view - must implement the mount function
    */
-  addView(view: View) {}
-
+  addView(view: View): void;
   /**
    * This function will be executed when plugin is enabled
    */
-  async enable() {}
-
+  enable(): Promise<void>;
   /**
    * This function will be executed when plugin is disabled
    */
-  async disable() {}
-
+  disable(): Promise<void>;
   /**
    * Loads data.json in the plugin folder
    */
-  async loadData() {}
-
+  loadData(): Promise<void>;
   /**
    * Save data to data.json in the plugin folder
    * @param data - must be serializable
    */
-  async saveData(data: any) {}
+  saveData(data: any): Promise<void>;
 }
