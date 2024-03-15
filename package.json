@@ -1,6 +1,6 @@
 {
   "name": "sophosia",
-  "version": "0.1.0-alpha",
+  "version": "0.1.1-alpha",
   "description": "Type definitions for Sophosia API",
   "homepage": "https://sophosia.app",
   "repository": {
@@ -10,7 +10,6 @@
   "author": "Hunt Feng",
   "license": "MIT",
   "private": false,
-  "types": "index.d.ts",
   "devDependencies": {
     "typescript": "^5.4.2"
   }
