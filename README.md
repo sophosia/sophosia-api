@@ -1,10 +1,12 @@
 # Sophosia API
 
+** !!Warning!! This API is in its alpha stage, breaking changes is expected in new releases. Use it with caution **
+
 ## Usage
 
 ```ts
 // main.ts
-import type { Plugin } from "sophosia";
+import { Plugin } from "sophosia";
 class MyPlugin extends Plugin {
   async enable() {
     this.addButton(/* button */);
