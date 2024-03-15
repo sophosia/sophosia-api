@@ -44,17 +44,17 @@ export class Plugin {
    * If visible is given, set the state as it is
    * @param visible
    */
-  toggleLeftMenu: (visible?: boolean) => {};
+  toggleLeftMenu(visible?: boolean): void {}
   /**
    * Set the view to be shown in LeftMenu
    * @param viewId - the id of the view to be shown
    */
-  setLeftMenuView: (viewId: string) => {};
+  setLeftMenuView(viewId: string): void {}
   /**
    * Opens a page
    * @param - the page to be opened
    */
-  openPage: (page: Page) => {};
+  openPage(page: Page): void {}
   /**
    * Add a button
    * @param button - button to be added
