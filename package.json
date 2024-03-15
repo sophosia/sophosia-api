@@ -10,9 +10,13 @@
   "author": "Hunt Feng",
   "license": "MIT",
   "private": false,
-  "main": "",
+  "main": "index.ts",
   "types": "index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --dts-only --out-dir ./"
+  },
   "devDependencies": {
+    "tsup": "^8.0.2",
     "typescript": "^5.4.2"
   }
 }
