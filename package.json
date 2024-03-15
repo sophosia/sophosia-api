@@ -1,6 +1,6 @@
 {
   "name": "sophosia",
-  "version": "0.1.1-alpha",
+  "version": "0.1.2-alpha",
   "description": "Type definitions for Sophosia API",
   "homepage": "https://sophosia.app",
   "repository": {
